@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة الشخصية</title>
+    <meta name="description" content="Portfolio of Abeer Al-Ghamdi - Computer Engineering Student & AI Enthusiast">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#hero" class="logo" data-i18n="logo">ᗅℬ</a>
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active" data-i18n="nav_home">الرئيسية</a></li>
+                    <li><a href="#about" class="nav-link" data-i18n="nav_about">من أنا</a></li>
+                    <li><a href="#interests" class="nav-link" data-i18n="nav_interests">الاهتمامات</a></li>
+                    <li><a href="#achievements" class="nav-link" data-i18n="nav_achievements">الإنجازات</a></li>
+                    <li><a href="#services" class="nav-link" data-i18n="nav_services">الخدمات</a></li>
+                    <li><a href="#contact" class="nav-link" data-i18n="nav_contact">تواصل</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-controls">
+                <button id="lang-toggle" class="lang-toggle" aria-label="Switch Language">English</button>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme"><i class="fas fa-moon"></i></button>
+                <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-greeting" data-i18n="hero_greeting">مرحباً، أنا</span>
+                    <h1 class="hero-title" data-i18n="hero_title">عبير الغامدي</h1>
+                    <h2 class="hero-subtitle" data-i18n="hero_subtitle">Computer Engineering Student | AI & Robotics Enthusiast</h2>
+                    <p class="hero-description" data-i18n="hero_description">
+                        طالبة هندسة حاسب تقود مبادرات تقنية وتعمل على تحويل أفكار الذكاء الاصطناعي إلى حلول واقعية مؤثرة.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">300+</span>
+                            <span class="stat-label" data-i18n="stat_members">Members Led</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label" data-i18n="stat_projects">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label" data-i18n="stat_leadership">Leadership Roles</span>
+                        </div>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary" data-i18n="btn_contact">تواصل معي</a>
+                        <a href="#about" class="btn btn-outline" data-i18n="btn_more">المزيد عني</a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <!-- Abstract Visual Element (CSS Only) -->
+                    <div class="abstract-shape">
+                        <div class="shape-circle"></div>
+                        <div class="shape-square"></div>
+                        <div class="shape-triangle"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="section_about">من أنا</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p data-i18n="about_text">
+                            أنا طالبة شغوفة في مجال هندسة الحاسب، أسعى دائمًا لتوظيف التقنية في حل المشكلات الحقيقية. 
+                            أؤمن بقوة المجتمع التقني والعمل الجماعي في تحقيق الابتكار.
+                        </p>
+                        <ul class="about-list">
+                            <li data-i18n="about_list_1">قيادة المجتمع التقني في نادي البرمجة والذكاء الاصطناعي (+300 عضو).</li>
+                            <li data-i18n="about_list_2">تنفيذ 5 مشاريع تقنية ناجحة تحت قيادتي.</li>
+                            <li data-i18n="about_list_3">نائبة رئيس النادي مع استمرار القيادة المجتمعية.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests Section -->
+        <section class="section interests" id="interests">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="section_interests">الاهتمامات</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="interests-grid">
+                    <div class="interest-card">
+                        <div class="interest-icon">AI</div>
+                        <h3 data-i18n="interest_ai">الذكاء الاصطناعي</h3>
+                    </div>
+                    <div class="interest-card">
+                        <div class="interest-icon">ROB</div>
+                        <h3 data-i18n="interest_robotics">الروبوتات</h3>
+                    </div>
+                    <div class="interest-card">
+                        <div class="interest-icon">SYS</div>
+                        <h3 data-i18n="interest_systems">تطوير الأنظمة</h3>
+                    </div>
+                    <div class="interest-card">
+                        <div class="interest-icon">UX</div>
+                        <h3 data-i18n="interest_ux">تجربة المستخدم</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="section achievements" id="achievements">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="section_achievements">الإنجازات</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="achievements-grid">
+                    <!-- Achievement 1: Information Security -->
+                    <div class="achievement-card" onclick="toggleDetails(this)">
+                        <div class="achievement-header">
+                            <h3 data-i18n="achieve_1_title">Information Security Certificate</h3>
+                            <p data-i18n="achieve_1_subtitle">Intensive Program</p>
+                        </div>
+                        <div class="achievement-details">
+                            <p data-i18n="achieve_1_desc">
+                                أتممت برنامجًا مكثفًا في أمن المعلومات ركز على حماية الأنظمة والبيانات. 
+                                التجربة عززت فهمي للبنية الآمنة للأنظمة التقنية الحديثة.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Achievement 2: SLAM Model -->
+                    <div class="achievement-card" onclick="toggleDetails(this)">
+                        <div class="achievement-header">
+                            <h3 data-i18n="achieve_2_title">SLAM Model</h3>
+                            <p data-i18n="achieve_2_subtitle">using MATLAB</p>
+                        </div>
+                        <div class="achievement-details">
+                            <p data-i18n="achieve_2_desc">
+                                طوّرت النظام الذكي لغواصة ذاتية باستخدام ROS وتقنيات الذكاء الاصطناعي لاتخاذ قرارات مستقلة. 
+                                كما بنيت نموذج SLAM عبر MATLAB لتمكينها من رسم الخرائط وتحديد موقعها في البيئات غير المعروفة.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Achievement 3: Volunteering -->
+                    <div class="achievement-card" onclick="toggleDetails(this)">
+                        <div class="achievement-header">
+                            <h3 data-i18n="achieve_3_title">50+ Hours</h3>
+                            <p data-i18n="achieve_3_subtitle">Volunteering</p>
+                        </div>
+                        <div class="achievement-details">
+                            <p data-i18n="achieve_3_desc">
+                                كرّست أكثر من 50 ساعة تطوعية في الورش والمشاريع التقنية داخل النادي. 
+                                كانت هذه المرحلة الأساس الحقيقي لتطوير مهاراتي البرمجية عمليًا.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Achievement 4: Tech Leader -->
+                    <div class="achievement-card" onclick="toggleDetails(this)">
+                        <div class="achievement-header">
+                            <h3 data-i18n="achieve_4_title">Tech Leader</h3>
+                            <p data-i18n="achieve_4_subtitle">Leading 300+ Members</p>
+                        </div>
+                        <div class="achievement-details">
+                            <p data-i18n="achieve_4_desc">
+                                قدت المجتمع التقني في نادي البرمجة والذكاء الاصطناعي لأكثر من 300 عضو، مع الإشراف على تنفيذ 5 مشاريع تقنية. 
+                                التجربة عززت مهاراتي في القيادة التقنية وبناء فرق تعمل نحو هدف مشترك.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="section services" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="section_services">الخدمات</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3 data-i18n="service_1_title">قيادة الفرق التقنية</h3>
+                        <p data-i18n="service_1_desc">إدارة وتوجيه الفرق لتحقيق أهداف المشروع بكفاءة.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3 data-i18n="service_2_title">تطوير حلول AI</h3>
+                        <p data-i18n="service_2_desc">بناء نماذج ذكاء اصطناعي مخصصة لحل مشكلات محددة.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3 data-i18n="service_3_title">بناء نماذج أولية</h3>
+                        <p data-i18n="service_3_desc">تحويل الأفكار إلى نماذج عمل (Prototyping) قابلة للاختبار.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="section_contact">تواصل معي</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contact-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" data-i18n="label_name">الاسم</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-i18n="label_email">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="label_message">الرسالة</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit" data-i18n="btn_send">إرسال الرسالة</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/aabeeralghamdi" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/AbAr-18" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/engabeer24?s=21" aria-label="X" target="_blank" rel="noopener noreferrer"><i class="fab fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
